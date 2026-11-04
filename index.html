@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A personal portfolio for an NJIT Software Engineering student, sharing background, projects, skills, and contact information.">
+  <meta name="theme-color" content="#111827">
+  <title>Home | NJIT Software Engineering Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Portfolio home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span>Portfolio<span class="brand-period">.</span></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Open navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="primary-navigation" aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="theme-toggle" type="button" aria-pressed="false" aria-label="Toggle light and dark theme">
+          <svg class="theme-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+          </svg>
+          <span>Theme</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-space" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> NJIT Software Engineering Student</p>
+          <h1 id="hero-title">Building thoughtful software, <span>one project at a time.</span></h1>
+          <p class="hero-intro">I’m studying software engineering at NJIT and building a strong foundation in programming, problem solving, and software design. This portfolio is where I share what I’m learning and making.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="projects.html">Explore my projects <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="about.html">More about me</a>
+          </div>
+          <div class="hero-note">
+            <span class="note-line" aria-hidden="true"></span>
+            <p>Curious by nature. Building skills through practice.</p>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="visual-glow" aria-hidden="true"></div>
+          <div class="code-card">
+            <div class="code-card-top">
+              <div class="window-dots"><i></i><i></i><i></i></div>
+              <span>hello-world.js</span>
+              <span class="code-menu">•••</span>
+            </div>
+            <div class="code-content">
+              <p><span class="line-number">01</span><span class="code-muted">const</span> <span class="code-blue">developer</span> = {</p>
+              <p><span class="line-number">02</span>&nbsp;&nbsp;field: <span class="code-green">'software engineering'</span>,</p>
+              <p><span class="line-number">03</span>&nbsp;&nbsp;school: <span class="code-green">'NJIT'</span>,</p>
+              <p><span class="line-number">04</span>&nbsp;&nbsp;mindset: <span class="code-green">'always learning'</span></p>
+              <p><span class="line-number">05</span>};</p>
+              <p class="code-spacer"><span class="line-number">06</span></p>
+              <p><span class="line-number">07</span><span class="code-muted">while</span> (curious) {</p>
+              <p><span class="line-number">08</span>&nbsp;&nbsp;buildSomething();</p>
+              <p><span class="line-number">09</span>}</p>
+              <p class="code-cursor-line"><span class="line-number">10</span><span class="code-cursor"></span></p>
+            </div>
+          </div>
+          <div class="visual-tag visual-tag-top"><span aria-hidden="true">✳</span> Learning by building</div>
+          <div class="visual-tag visual-tag-bottom"><span class="tag-check" aria-hidden="true">✓</span> Open to new ideas</div>
+          <div class="visual-orbit orbit-one" aria-hidden="true"></div>
+          <div class="visual-orbit orbit-two" aria-hidden="true"></div>
+        </div>
+      </div>
+      <div class="hero-grid-lines" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro-strip" aria-label="Portfolio overview">
+      <div class="container intro-strip-inner">
+        <p><span class="strip-icon" aria-hidden="true">01</span> Learn with purpose</p>
+        <span class="strip-divider" aria-hidden="true"></span>
+        <p><span class="strip-icon" aria-hidden="true">02</span> Build with care</p>
+        <span class="strip-divider" aria-hidden="true"></span>
+        <p><span class="strip-icon" aria-hidden="true">03</span> Grow through feedback</p>
+      </div>
+    </section>
+
+    <section class="home-about section-space" aria-labelledby="welcome-title">
+      <div class="container home-about-grid">
+        <div>
+          <p class="eyebrow">A little about this site</p>
+          <h2 id="welcome-title">A place for learning<br>to take <span>shape.</span></h2>
+        </div>
+        <div class="home-about-copy">
+          <p>Software engineering brings together creativity, logic, and teamwork. I’m developing my skills one step at a time, from coursework and personal projects to the small details that make software easier to use.</p>
+          <a class="text-link" href="about.html">Get to know me <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="next-steps section-space" aria-labelledby="next-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Explore the portfolio</p>
+            <h2 id="next-title">Where would you like to <span>go?</span></h2>
+          </div>
+          <p class="section-heading-note">Take a closer look at my work, experience, and the skills I’m building.</p>
+        </div>
+        <div class="explore-grid">
+          <a class="explore-card" href="projects.html">
+            <span class="explore-number">01 / WORK</span>
+            <span class="explore-card-icon" aria-hidden="true">↗</span>
+            <h3>Projects</h3>
+            <p>Coursework and projects that turn ideas into practice.</p>
+          </a>
+          <a class="explore-card" href="skills.html">
+            <span class="explore-number">02 / TOOLKIT</span>
+            <span class="explore-card-icon" aria-hidden="true">⌘</span>
+            <h3>Skills</h3>
+            <p>Tools and technical foundations I’m developing.</p>
+          </a>
+          <a class="explore-card" href="contact.html">
+            <span class="explore-number">03 / SAY HELLO</span>
+            <span class="explore-card-icon" aria-hidden="true">✉</span>
+            <h3>Contact</h3>
+            <p>Have a question or an idea? I’d be glad to connect.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">&lt;/&gt;</span><span>Portfolio<span class="brand-period">.</span></span></a>
+      <p>Designed and built with curiosity<span class="footer-spark" aria-hidden="true"> ✳</span></p>
+      <a class="back-to-top" href="#main-content">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+</body>
+</html>
