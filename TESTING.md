@@ -5,12 +5,12 @@ Run these checks after the corresponding pages and features are implemented. Rec
 | ID | What is being tested | Steps | Expected result | Actual result |
 |---|---|---|---|---|
 | T1 | Home page loads locally | Open `index.html` from the repository in a browser. | Home page renders with an introduction and no missing local assets. | Not run — browser could not be opened for this task. |
-| T2 | About page content | Open `about.html` and inspect background, education, and interests. | All three content areas are present and readable. | Not run — page does not exist yet. |
+| T2 | About page content | Open `about.html` and inspect background, education, and interests. | All three content areas are present and readable. | Partial — source includes all three areas; visual browser check not run. |
 | T3 | Projects page count and detail | Open `projects.html`; count cards and review their content. | At least three projects have descriptions, images/screenshots, and applicable links. | Not run — page does not exist yet. |
 | T4 | Skills page | Open `skills.html` and review the skills and proficiency information. | Technical skills and proficiency levels are clearly presented. | Not run — page does not exist yet. |
 | T5 | Contact page | Open `contact.html`; inspect contact details or form. | Contact information is available, or a form explains it is client-side and directs visitors to email. | Not run — page does not exist yet. |
-| T6 | One main heading per page | Inspect each of the five pages and count `<h1>` elements. | Each page contains exactly one `<h1>`. | Partial — a static check found exactly one `<h1>` in `index.html`; the other four pages are pending. |
-| T7 | Navigation links | Use navigation links from each page to visit every other page. | Every link points to the correct local page and works. | Not run — the four destination pages are pending. |
+| T6 | One main heading per page | Inspect each of the five pages and count `<h1>` elements. | Each page contains exactly one `<h1>`. | Partial — `index.html` and `about.html` each contain one `<h1>`; the other three pages are pending. |
+| T7 | Navigation links | Use navigation links from each page to visit every other page. | Every link points to the correct local page and works. | Not run — three destination pages are pending; browser navigation not checked. |
 | T8 | Mobile navigation controls | At a phone-sized viewport, open and close the navigation using its controls. | Menu responds correctly, controls expose their state, and page content remains usable. | Not run — browser could not be opened for this task. |
 | T9 | Keyboard navigation | Use Tab, Shift+Tab, Enter, and Space to navigate and operate controls. | Focus is visible, order is logical, and all controls work without a mouse. | Not run — site is not implemented yet. |
 | T10 | Responsive layout and overflow | Inspect all pages at phone, tablet, and laptop widths. | Layout adapts at each width and there is no sideways scrolling on mobile. | Not run — browser could not be opened for this task; responsive CSS is in place for the home page. |
